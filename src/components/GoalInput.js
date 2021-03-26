@@ -26,7 +26,7 @@ function InputForm() {
                 autoFocus={true}
                 value={goal}/>
                 <View style={styles.buttons}>
-                    <Button title="Cancle" color='red' onPress={() => {dispatch(showModal())}}/>
+                    <Button title="Cancel" color='red' onPress={() => {dispatch(showModal())}}/>
                     <Button title="Add" onPress={onPressHandle}/>
                 </View>
                 
